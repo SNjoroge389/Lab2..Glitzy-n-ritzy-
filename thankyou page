@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glitzy n Ritzy - Thank You</title>
+</head>
+<body style="background-color: #000000; color: gold; font-family: Arial, sans-serif; text-align: center;">
+
+  <!-- Navigation Menu -->
+  <nav style="margin-bottom: 20px;">
+    <a href="index.html" style="color: gold; text-decoration: none; margin-right: 15px;">Home</a>
+    <a href="shop.html" style="color: gold; text-decoration: none; margin-right: 15px;">Shop</a>
+    <a href="order.html" style="color: gold; text-decoration: none;">Order Now</a>
+  </nav>
+
+  <hr style="border: 1px solid gold;">
+
+  <!-- Thank You Message -->
+  <h1>Thank You for Your Order!</h1>
+  <p>Your Glitzy n Ritzy style upgrade is on the way.</p>
+  <p>We’ll contact you soon via the email you provided.</p>
+
+  <!-- Optional Image -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Fashion_models_pose.jpg/300px-Fashion_models_pose.jpg" alt="Stylish Models">
+
+  <!-- Return Link -->
+  <p><a href="index.html" style="color: gold;">← Back to Home</a></p>
+
+  <p><small>Glitzy n Ritzy © 2025 | Style that shines</small></p>
+
+</body>
+</html>
