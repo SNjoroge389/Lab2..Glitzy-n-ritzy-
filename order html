@@ -42,7 +42,7 @@
     <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
 
     <button type="submit">Submit Order</button>
-  </form>
+  <form action="thankyou.html">
 
   <!-- Footer -->
   <p><small>Thank you for shopping with Glitzy n Ritzy!</small></p>
