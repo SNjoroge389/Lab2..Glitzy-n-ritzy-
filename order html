@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glitzy n Ritzy - Order</title>
+</head>
+<body style="background-color: #000000; color: gold; font-family: Arial, sans-serif;">
+
+  <!-- Navigation Menu -->
+  <nav style="margin-bottom: 20px;">
+    <a href="index.html" style="color: gold; text-decoration: none; margin-right: 15px;">Home</a>
+    <a href="shop.html" style="color: gold; text-decoration: none; margin-right: 15px;">Shop</a>
+    <a href="order.html" style="color: gold; text-decoration: none;">Order Now</a>
+  </nav>
+
+  <hr style="border: 1px solid gold;">
+
+  <!-- Page Title -->
+  <h1>Place Your Order</h1>
+  <p>Fill out the form below to order your favorite Glitzy n Ritzy item.</p>
+
+  <!-- Order Form -->
+  <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="item">Select Item:</label><br>
+    <select id="item" name="item">
+      <option value="dress">Floral Summer Dress</option>
+      <option value="hoodie">Cropped Hoodie</option>
+      <option value="heels">Chunky Platform Heels</option>
+    </select><br><br>
+
+    <label for="size">Size:</label><br>
+    <input type="radio" name="size" value="small"> Small
+    <input type="radio" name="size" value="medium"> Medium
+    <input type="radio" name="size" value="large"> Large<br><br>
+
+    <label for="notes">Special Requests:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <!-- Footer -->
+  <p><small>Thank you for shopping with Glitzy n Ritzy!</small></p>
+
+</body>
+</html>
